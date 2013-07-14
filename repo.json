@@ -1,0 +1,4 @@
+{
+  "backend": "../core-web-api/",
+  "frontend": "../core-web-frontend/"
+}
