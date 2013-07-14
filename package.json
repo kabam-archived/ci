@@ -1,0 +1,24 @@
+{
+  "name": "mywebclass",
+  "version": "0.0.1",
+  "description": "Modern Learning Platform",
+  "homepage": "https:/github.com/mywebclass/ci",
+  "bugs": "https://github.com/mywebclass/ci/issues",
+  "author": {
+    "name": "T. Budiman",
+    "email": "tbudiman@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mywebclass/ci"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-watch": "~0.2.0"
+  }
+}
