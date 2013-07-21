@@ -18,17 +18,11 @@ module.exports = function(grunt) {
       }
     },
     copy: {
-      backend: {
+      meta: {
         expand: true,
-        cwd: '<%= cfg.backend %>',
+        cwd: '<%= cfg.meta %>',
         src: '**',
         dest: 'build/'
-      },
-      frontend: {
-        expand: true,
-        cwd: '<%= cfg.frontend %>',
-        src: '**',
-        dest: 'build/frontend/'
       }
     },
     watch: {
